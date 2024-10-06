@@ -10,7 +10,7 @@ from hashlib import md5
 
 
 def hasher(string):
-    """ hashes a string and returns teh hashed value """
+    """ hashes a string and returns the hashed value """
 
     md5_hash = md5()
     md5_hash.update(string.encode('utf-8'))
